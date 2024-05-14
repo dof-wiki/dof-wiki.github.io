@@ -3,7 +3,7 @@ from pathlib import Path
 from dataclasses import dataclass
 
 
-EXCLUDE_DIR = {'FILES'}
+EXCLUDE_DIR = {'FILES', '.git'}
 SORT = ['指南', 'pvf', '服务端']
 
 
